@@ -1,0 +1,57 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<ListItem /> snapshots should render proper html 1`] = `
+<ListItem
+  title="Element 1"
+  url="./"
+>
+  <div
+    className="listItem"
+  >
+    <span
+      className="noImage"
+    />
+    <div
+      className="listItem__info"
+    >
+      <span
+        className="listItem__title"
+      >
+        Element 1
+      </span>
+      <a
+        className="listItem__Link"
+        href="./"
+        target="_blank"
+      >
+        Link
+      </a>
+    </div>
+  </div>
+</ListItem>
+`;
+
+exports[`<ListItem /> snapshots should render proper html with default props 1`] = `
+<ListItem>
+  <div
+    className="listItem"
+  >
+    <span
+      className="noImage"
+    />
+    <div
+      className="listItem__info"
+    >
+      <span
+        className="listItem__title"
+      />
+      <a
+        className="listItem__Link"
+        target="_blank"
+      >
+        Link
+      </a>
+    </div>
+  </div>
+</ListItem>
+`;
